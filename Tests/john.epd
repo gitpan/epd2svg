@@ -1,6 +1,6 @@
-#EPD-1.0
-# This is only a test with the new EPD format
-BBox(1,1,70,80)
+%EPD-1.0
+% This is only a test with the new EPD format
+%BBox(1,1,70,80)
 0 g
 1 i
 33.92 59.8 m

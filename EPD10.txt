@@ -1,17 +1,17 @@
-EPD version 1.0 specs (beta)
+EPD version 1.0 specs
 http://EPD.sourceforge.net/epdspecs.html
 
 EPD: a new encapsulated vectorial graphic format
 
 File Structure
-Every line started with # is a Comment Line.
+Every line started with % is a Comment Line.
 The first line of a EDF file specifies the version number of the EDF.
-#EDP-1.0
+%EDP-1.0
 
 Every line is one unique command.
 
 The command 
-BBox(x1,y1,x2,y2)
+%BBox(x1,y1,x2,y2)
 specifies the Bounding Box of the embedded object
 the width is x2-x1
 the height is y2-y1
@@ -27,9 +27,9 @@ Now you can use to construct an EPD every command describes in the Portable Docu
 Reference Manual Version 1.3 in the paragraphs 8.3, 8.4, 8.5, 8.6.
 
 e.g. this is the first part of the john.epd example:
-#EPD-1.0
-# This is only a test with the new EPD format
-BBox(1,1,70,80)
+%EPD-1.0
+% This is only a test with the new EPD format
+%BBox(1,1,70,80)
 0 g
 1 i
 33.92 59.8 m

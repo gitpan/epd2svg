@@ -3,9 +3,9 @@
 #
 # epd2svg -- EPD to SVG
 #
-# by SANFACE Software <sanface@sanface.com> 10 July 2000
+# by SANFACE Software <sanface@sanface.com> 19 September 2000
 #
-# This is version 0.9
+# This is version 1.0
 #
 use strict;
 use Getopt::Long;
@@ -13,7 +13,7 @@ use File::Basename;
 use File::Find;
 use File::DosGlob 'glob';
 
-my $version="0.9";
+my $version="1.0";
 my $producer="epd2svg";
 my $companyname="SANFACE Software";
 my $epd2svgHome="http://EPD.sourceforge.net/";
@@ -111,8 +111,7 @@ EPD2SVGmark
 
   open (IN, "$file") || die "$producer: couldn't open input file $file\n";
   while (<IN>) {
-    if (/ *#(.*)/) {print OUT "<!-- $1 -->\n";next;}
-    if (/BBox\((.*),(.*),(.*),(.*)\)/)
+    if (/%BBox\((.*),(.*),(.*),(.*)\)/)
       {
       $bboxX1=$1;
       $bboxY1=$2;
@@ -123,6 +122,7 @@ EPD2SVGmark
       print OUT qq!<svg width="$bboxW" height="$bboxH"\n  xmlns = 'http://www.w3.org/2000/svg-20000303-stylable'>\n!;
       next;
       }
+    if (/ *%(.*)/) {print OUT "<!-- $1 -->\n";next;}
     if (/^ *h *$/ || /^ *f\* *$/) {$pathstring.="z\"/>\n";$path=0;print OUT "$pathstring\n";next;}
 # CERCA di vedere meglio FILL and STROKE!!!!
 # S stroke
@@ -188,7 +188,7 @@ USAGEDESC
 
 =head1 NAME
 
-EPD2SVG - Version 0.9 10th July 2000
+EPD2SVG - Version 1.0 19th September 2000
 
 =head1 SYNOPSIS
 

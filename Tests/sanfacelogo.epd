@@ -1,6 +1,6 @@
-#EPD-1.0
-# the SANFACE Software logo
-BBox(0,0,38,38)
+%EPD-1.0
+% the SANFACE Software logo
+%BBox(0,0,38,38)
 1 i
 1 1 0 rg
 0 0 m
