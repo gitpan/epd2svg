@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- ====================================================================== -->
+<!-- Filename: ./sanfacelogo.svg                                                      -->
+<!-- Author: SANFACE Software                                               -->
+<!-- Date: September 19, 2000                                               -->
+<!-- ====================================================================== -->
+
+<!-- EPD-1.0 -->
+<!--  the SANFACE Software logo -->
+<svg width="38" height="38"
+  xmlns = 'http://www.w3.org/2000/svg-20000303-stylable'>
+<path style="stroke:none;fill:rgb(255,255,0)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 0 0
+L 0 38
+L 38 38
+L 38 0
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,255)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 2 2
+L 2 36
+L 36 36
+L 36 2
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,0)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 4 4
+L 4 34
+L 34 34
+L 34 4
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,255)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 6 6
+L 6 32
+L 32 32
+L 32 6
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,0)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 8 8
+L 8 30
+L 30 30
+L 30 8
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,255)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 10 10
+L 10 28
+L 28 28
+L 28 10
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,0)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 12 12
+L 12 26
+L 26 26
+L 26 12
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,255)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 14 14
+L 14 24
+L 24 24
+L 24 14
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,0)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 16 16
+L 16 22
+L 22 22
+L 22 16
+z"/>
+
+<path style="stroke:none;fill:rgb(255,255,255)"
+transform="matrix(1 0 0 -1 0 38)"
+d="M 18 18
+L 18 20
+L 20 20
+L 20 18
+z"/>
+
+</svg>

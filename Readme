@@ -1,0 +1,31 @@
+EPD is a new encapsulated vectorial graphic format.
+The project is GPL and you can find it at
+http://EPD.sourceforge.net/
+
+The idea is very simple and powerful:
+EPD uses the standard PDF (Adobe trademark) graphic syntax.
+Every line is only one command.
+Every line starting with # is a comment.
+The command BBox(x1,y1,x2,y2) will specify the Bounding Box.
+This is a simple example
+
+# This is only a test with the new EPD format
+BBox(-50.87109,97.4201,668.62891,700.57977)
+0.97 g
+1 i
+-64.1289 549.6731 m
+308.6328 97.4201 l
+-64.1289 625.8317 l
+-64.1289 549.6731 l
+h
+f
+
+It's very simple with EPD create an archive of graphical objects.
+We're developing a simple application to use an EPD: epd2svg
+The official W3C overview of the Scalable Vector Graphics (SVG) format is at
+http://www.w3.org/Graphics/SVG/
+If you need a SVG browser viewer we suggest you the Adobe SVG plug-in
+http://www.adobe.com/svg/viewer/install/
+
+We hope many applications will support EPD, to create EPD objects and
+to include EPD objects in other formats.
